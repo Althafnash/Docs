@@ -1,0 +1,25 @@
+site_name: My Documentation
+site_description: Comprehensive guides and documentation
+site_author: Mohammed Althaf
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: indigo
+
+nav:
+  - Home: index.md
+  - Project-Alpha:
+      - Overview: project-alpha/index.md
+      - Usage: project-alpha/usage.md
+  - Project-Beta:
+      - Overview: project-beta/index.md
+      - Usage: project-beta/usage.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - toc:
+      permalink: true
