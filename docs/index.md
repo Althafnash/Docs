@@ -3,5 +3,5 @@
 Welcome — central docs for my GitHub projects.
 
 ## Projects
-- [Project Alpha](project-alpha/)
+- [WindowsSocureFiles](WindowsSocureFiles/)
 - [Project Beta](project-beta/)

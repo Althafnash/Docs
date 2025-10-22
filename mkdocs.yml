@@ -10,9 +10,9 @@ theme:
 
 nav:
   - Home: index.md
-  - Project-Alpha:
-      - Overview: project-alpha/index.md
-      - Usage: project-alpha/usage.md
+  - WindowsSocureFiles:
+      - Overview: WindowsSocureFiles/index.md
+      - Usage: WindowsSocureFiles/usage.md
   - Project-Beta:
       - Overview: project-beta/index.md
       - Usage: project-beta/usage.md
