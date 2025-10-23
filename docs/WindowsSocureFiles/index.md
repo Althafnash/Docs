@@ -8,3 +8,4 @@ This allows any users to run any windows based commands by the lcik of a file
 
 - [PC_SECURITY](PC_SECURITY.md)
 - [NASH_NETWORK_TOOL](NASH_NETWORK_TOOL.md)
+- [PC_HARDWARE](PC_HARDWARE.md)

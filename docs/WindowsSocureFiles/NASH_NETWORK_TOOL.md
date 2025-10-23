@@ -59,3 +59,6 @@ Now lets look at the individual scripts
 - [Firewall](Firewall.md)
 - [HTTP](HTTP.md)
 - [IPV4](IPV4.md)
+- [PING](PING.md)
+- [Traget_info](Traget_info.md)
+- [TCP/IP](TCP.md)

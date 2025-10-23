@@ -65,36 +65,72 @@ The netsh interface ipv4 show excludedportrange command is used in Windows to di
 
     netsh interface ipv4 show global 
 
+The netsh interface ipv4 show global command in Windows provides a detailed overview of the global IPv4 configuration settings that apply across all network interfaces on the system. These settings influence how the operating system handles IPv4 traffic, impacting aspects such as routing, packet reassembly, security, and performance.
+
     netsh interface ipv4 show icmpstats
+
+The command netsh interface ipv4 show icmpstats is used in Windows to display statistics related to the Internet Control Message Protocol (ICMP) for IPv4. This command provides a summary of ICMP messages sent and received, including various types of ICMP messages and any errors encountered.
 
     netsh interface ipv4 show interfaces
 
+The netsh interface ipv4 show interfaces command in Windows provides a detailed list of all IPv4 network interfaces on the system.
+
     netsh interface ipv4 show ipaddresses
 
-    netsh interface ipv4 show ipnettomediaj
+The netsh interface ipv4 show ipaddresses command is used in the Windows Command Prompt to display the IP address configuration for IPv4 on all network interfaces.
+
+    netsh interface ipv4 show ipnettomedia
+
+The command netsh interface ipv4 show ipnettomedia is incorrect and will produce an error because there is no ipnettomedia subcommand in the netsh utility. The correct command to view information about network interfaces is netsh interface ipv4 show interfaces which displays details for all IPv4 interfaces, including their status, name, and index.
 
     netsh interface ipv4 show ipstats
 
+The netsh interface ipv4 show ipstats command in Windows displays detailed statistics related to the Internet Protocol (IP) for IPv4. This command is part of the netsh (Network Shell) utility, which allows for command-line configuration and monitoring of network settings.
+
     netsh interface ipv4 show joins
+
+Usage of Window command: netsh interface ipv4 and netsh ...The netsh interface ipv4 show joins command is used in Windows to display the IPv4 multicast groups that the local machine is joined to, which is useful for diagnosing network issues, especially those involving multicast traffic. Running this command will list the interfaces and multicast addresses the computer is actively listening to.  
 
     netsh interface ipv4 show neighbors
 
+The command netsh interface ipv4 show neighbors is used to display the IPv4 neighbor cache, which shows a table of IP addresses and their corresponding Media Access Control (MAC) addresses for devices on the local network.
+
     netsh interface ipv4 show route
+
+The netsh interface ipv4 show route command is used in Windows to display the IPv4 routing table. This table shows how network traffic is directed, listing entries for destinations, gateways, and the interfaces used for routing. To use it, open Command Prompt and type netsh interface ipv4 show route, then press Enter.  
 
     netsh interface ipv4 show subinterfaces
 
+With netsh , you can view and modify network settings, automate tasks, and troubleshoot network issues locally or remotely.
+
     netsh interface ipv4 show tcpconnections
+
+The command netsh interface ipv4 show tcpconnections is not a valid netsh command for displaying active TCP connections. The correct command to view active TCP connections in Windows is netstat.
 
     netsh interface ipv4 show udpconnections
 
+The command netsh interface ipv4 show udp connections is not a valid netsh command for displaying active UDP connections in Windows.
+
     netsh interface ipv4 show show udpstats
+
+The netsh interface ipv4 show udpstats command is used in Windows to display User Datagram Protocol (UDP) statistics for the IPv4 interface.
 
     netsh interface ipv4 show udpstats  
 
+The command netsh interface ipv4 show udpstats is used in Windows to display User Datagram Protocol (UDP) statistics for the IPv4 interface.
+
     netsh interface ipv4 show winsservers  
+
+The command netsh interface ipv4 show winsservers is not a standard command; there is no built-in winsservers option. To view WINS server settings, you must first enter the netsh interface ip context and then use the show command. For example, you would use netsh interface ip show wins to display the WINS configuration for all interfaces, or netsh interface ip show wins name="Local Area Connection 1" to see the settings for a specific interface. 
 
     netsh interface ipv4 show excludedportrange protocol=tcp
 
+The netsh interface ipv4 show excludedportrange protocol=tcp command in Windows displays a list of TCP port ranges that are explicitly excluded from use by applications. These exclusions prevent applications from binding to ports within these specified ranges.
+
     netsh interface ipv4 show excludedportrange protocol=udp
 
+The netsh interface ipv4 show excludedportrange protocol=udp command displays the ranges of UDP ports that are currently excluded on the IPv4 stack of a Windows system. These excluded ports cannot be used by applications or services for listening or binding.
+
     notepad IPV4.txt
+
+Paste the output here
